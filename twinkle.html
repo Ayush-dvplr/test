@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>slider</title>
+	<style type="text/css">
+
+		@keyframes slide {
+			0% {background-color: violet;}
+			16.66% {background-color: indigo;}
+			33.32% {background-color: blue;}
+			49.98% {background-color: green;}
+			66.64% {background-color: yellow;}
+			83.30% {background-color: orange;}
+			100% {background-color: red;}
+
+		}
+
+        body {
+			background-color: black;
+		}
+
+		.slider {
+			width: 1000vw;
+			height: 1000vh;
+
+			/* background: red url(slider/img1.jpg) cover no-repeat; */
+			animation-name: slide;
+			animation-duration: 1ms;
+			animation-iteration-count: infinite;
+			animation-timing-function: ease-in-out;
+			
+		}
+	</style>
+</head>
+<body>
+ <div class="slider">
+ 	
+ </div>
+
+</body>
+</html>
